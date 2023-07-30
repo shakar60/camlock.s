@@ -1,0 +1,15 @@
+--Q tool fixing
+getgenv().RecurringPoint = "UpperTorso"
+getgenv().Hitbox = "UpperTorso"
+getgenv().Keybind = "Q"
+getgenv().AimbotStrengthAmount = 0.405
+getgenv().PredictionAmount = 10
+getgenv().Radius = 25
+getgenv().UsePrediction = true
+getgenv().AimbotStrength = true
+getgenv().FirstPerson = true
+getgenv().ThirdPerson = true
+getgenv().TeamCheck = false
+getgenv().Enabled = true
+--camlock script
+loadstring(game:HttpGet("https://raw.githubusercontent.com/scripthubekitten/camlockv3/main/kjnjnjn", true))()
